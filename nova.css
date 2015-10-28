@@ -78,3 +78,11 @@ img.exam{
     float: right;
     margin-top: 60px;
 }
+@keyframe entrada{
+    0%{
+        transform:scale(0.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+}

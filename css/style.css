@@ -296,6 +296,9 @@ header p {
   #cd-team li:nth-child(3n) {
     margin-right: 0;
   }
+  .container{
+    width: 100%;
+  }
 }
 
 .cd-member-bio {
@@ -385,6 +388,9 @@ header p {
     line-height: 1.6;
     margin: 2em 0;
   }
+  .container{
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .cd-member-bio {
@@ -441,6 +447,11 @@ header p {
   .cd-member-bio-close {
     right: 20px;
     top: 50px;
+  }
+
+  .container{
+    width: 50%;
+    float: left;
   }
 }
 
@@ -607,4 +618,42 @@ td{
 }
 b{
     font-weight: bold;
+}
+.logo{
+  animation: entrada 1.5s cubic-bezier(0.82, 0.01, 0.47, 0.86);
+  -webkit-animation: entrada 1.5s cubic-bezier(0.41, 0.32, 0, 2.21);
+}
+@keyframe entrada{
+    0%{
+        transform:scale(0.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+@-webkit-keyframes entrada{
+    0%{
+        transform:scale(0.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+footer{
+  background-color: #F9F9F9;
+  padding: 50px 100px;
+  overflow: hidden;
+  clear: both;
+}
+.container{
+  padding: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.container img{
+  width: 60%;
+  margin: 0 auto;
+}
+.container h1{
+  font-size: xx-large;
 }
