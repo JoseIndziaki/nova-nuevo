@@ -1,0 +1,80 @@
+.encabezados{
+	width: 100%;
+    background: #2B5259 url('http://www.anahuacoaxaca.edu.mx/images/entramado.png');
+    text-align: center;
+}
+.cuerpo{
+	clear: both;
+    overflow: hidden;
+}
+.izquierda{
+	width: 30%;
+    float: left;
+}
+.instrucciones{
+	width: 90%;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 50px 5%;
+    height: 300px;
+    text-align: justify;
+    line-height: 25px;
+    color: #000000;
+}
+.piramide{
+	position: relative;
+    bottom: 100px;
+    width: 50%;
+    background: #FFFFFF;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+.pyr{
+	cursor: pointer;
+    width: 100px;
+    height: 100px;
+    /* background: #f05000; */
+    text-align: center;
+    margin: 0 auto;
+}
+.pyr img{
+	width: 70%;
+    vertical-align: middle;
+    margin: 15px 0;
+}
+.derecha{
+	width: 70%;
+    float: left;
+}
+.lectura{
+	width: 90%;
+    background: #ecf0f1;
+    margin: 0 auto;
+    padding: 50px 5%;
+    height: 300px;
+}
+.examen-header{
+	padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #2B5259;
+    font-family: helvetica;
+    color: #fff;
+}
+.examen-header>div{
+	padding: 20px;
+}
+img.reloj{
+	vertical-align: middle;
+    width: 100px;
+    float: left;
+    margin-top: 60px;
+}
+img.exam{
+	vertical-align: middle;
+    width: 100px;
+    float: right;
+    margin-top: 60px;
+}
